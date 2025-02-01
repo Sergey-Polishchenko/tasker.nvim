@@ -1,6 +1,6 @@
 # Tasker
 
-## A Neovim plugin for running tasks from a Taskfile.yml with autocompletion and terminal management.
+A Neovim plugin for running tasks from a Taskfile.yml with autocompletion and terminal management.
 
 ---
 
@@ -18,9 +18,8 @@
 Use your favorite plugin manager to install Tasker. For example, with lazy.nvim:
 
 ```lua
-Copy
 {
-  "your-repository/tasker",
+  "Sergey-Polishchenko/tasker.nvim",
   config = function()
     require("tasker").setup()
   end,
